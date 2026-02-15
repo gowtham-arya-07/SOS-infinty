@@ -27,3 +27,22 @@ Game Rules
 6.The game ends when all cells are filled.
 
 7.The player with the highest score is declared the winner.
+
+
+Features
+
+*1 to 4 players support
+
+*Player vs Computer mode with basic AI
+
+*Dynamic board size (3×3 to 10×10)
+
+*Real-time score tracking
+
+*Automatic turn management
+
+*Multiple SOS detection in a single move
+
+*Permanent highlighting of SOS patterns
+
+*Final winner announcement
