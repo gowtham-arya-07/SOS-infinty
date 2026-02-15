@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SOS Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SOS Game</h1>
+
+<div class="top-controls">
+  Players:
+  <select id="mode">
+    <option value="1">1 Player vs Computer</option>
+    <option value="2">2 Players</option>
+    <option value="3">3 Players</option>
+    <option value="4">4 Players</option>
+  </select>
+
+  Board Size:
+  <input type="number" id="size" value="5" min="3" max="10">
+
+  Letter:
+  <select id="letter">
+    <option value="S">S</option>
+    <option value="O">O</option>
+  </select>
+
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<div class="game-container">
+  <div id="board"></div>
+
+  <div class="score-panel">
+    <h2>Scores</h2>
+    <div id="scores"></div>
+    <h3 id="turn"></h3>
+    <h2 id="winner"></h2>
+  </div>
+</div>
+
+<!-- SCRIPT MUST BE LAST -->
+<script src="script.js"></script>
+</body>
+</html>
