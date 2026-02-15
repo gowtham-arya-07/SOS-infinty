@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: linear-gradient(120deg, #74ebd5, #9face6);
+}
+
+.top-controls {
+  margin: 15px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#board {
+  display: grid;
+  gap: 5px;
+  background: #333;
+  padding: 10px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cell.highlight {
+  background: gold;
+  color: red;
+}
+
+.score-panel {
+  margin-left: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+}
